@@ -1,0 +1,20 @@
+{
+  "name": "csvx",
+  "version": "1.0.0",
+  "description": "Simple and easy to use CSV parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "csv",
+    "parser",
+    "csv-parser",
+    "excel"
+  ],
+  "author": "Houfeng",
+  "license": "MIT",
+  "dependencies": {
+    "real-utils": "0.0.1"
+  }
+}
