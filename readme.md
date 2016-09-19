@@ -20,8 +20,8 @@ var array = csv.parse(text);
 
 ### 用例
 ```js
-const csv = require('../');
-const assert = require('assert');
+var csv = require('../');
+var assert = require('assert');
 
 describe('csv', function () {
 

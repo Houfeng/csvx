@@ -1,6 +1,6 @@
-const CSV = require('./lib/csv');
+var CSV = require('./lib/csv');
 
-const csv = new CSV();
+var csv = new CSV();
 csv.CSV = CSV;
 
 module.exports = csv;
