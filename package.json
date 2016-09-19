@@ -1,6 +1,6 @@
 {
   "name": "csvx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple and easy to use CSV parser",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,10 @@
   "author": "Houfeng",
   "license": "MIT",
   "dependencies": {
-    "real-utils": "0.0.1"
+    "cify": "^1.0.2",
+    "ntils": "^1.0.5"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
   }
 }

@@ -1,25 +1,3 @@
-### 简介
-CSVX 是一个简单易用的 CSV 解析器
-
-### 安装
-```sh
-npm install csvx -save
-```
-
-### 将 array 转换为 csv
-```js
-var csv = require("csvx");
-var text = csv.stringify(array);
-```
-
-### 将 csv 转换为 array
-```js
-var csv = require("csvx");
-var array = csv.parse(text);
-```
-
-### 用例
-```js
 const csv = require('../');
 const assert = require('assert');
 
@@ -87,5 +65,3 @@ describe('csv', function () {
   });
 
 });
-
-```
