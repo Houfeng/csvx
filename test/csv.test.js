@@ -18,7 +18,7 @@ describe('csv', function () {
         { name: 'zs', age: 20 },
         { name: 'ls', age: 21 }
       ], true);
-      assert.equal(text, 'name,age\n"zs",20\n"ls",21');
+      assert.equal(text, '"name","age"\n"zs",20\n"ls",21');
     });
 
     it('columns', function () {
@@ -29,7 +29,7 @@ describe('csv', function () {
           { name: 'name', displayName: '姓名' },
           { name: 'age', displayName: '年龄' }
         ]);
-      assert.equal(text, '姓名,年龄\n"z,s",20\n"ls",21');
+      assert.equal(text, '"姓名","年龄"\n"z,s",20\n"ls",21');
     });
 
   });
